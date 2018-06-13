@@ -13,7 +13,6 @@
 		A082FB1720D1156500958AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A082FB1520D1156500958AC9 /* LaunchScreen.storyboard */; };
 		A082FB2220D1156600958AC9 /* MyLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082FB2120D1156600958AC9 /* MyLiveTests.swift */; };
 		A082FB2D20D1156600958AC9 /* MyLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082FB2C20D1156600958AC9 /* MyLiveUITests.swift */; };
-		A082FB4320D11A4300958AC9 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = A082FB4220D11A4300958AC9 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		A082FB2820D1156600958AC9 /* MyLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A082FB2C20D1156600958AC9 /* MyLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiveUITests.swift; sourceTree = "<group>"; };
 		A082FB2E20D1156600958AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A082FB4220D11A4300958AC9 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +95,8 @@
 		A082FB0B20D1156500958AC9 /* MyLive */ = {
 			isa = PBXGroup;
 			children = (
-				A082FB4220D11A4300958AC9 /* Classes */,
+				A082FB4520D11B1D00958AC9 /* Classes */,
 				A082FB0C20D1156500958AC9 /* AppDelegate.swift */,
-				A082FB1020D1156500958AC9 /* Main.storyboard */,
 				A082FB1320D1156500958AC9 /* Assets.xcassets */,
 				A082FB1520D1156500958AC9 /* LaunchScreen.storyboard */,
 				A082FB1820D1156500958AC9 /* Info.plist */,
@@ -123,6 +120,62 @@
 				A082FB2E20D1156600958AC9 /* Info.plist */,
 			);
 			path = MyLiveUITests;
+			sourceTree = "<group>";
+		};
+		A082FB4520D11B1D00958AC9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A082FB4620D11B1D00958AC9 /* Follow */,
+				A082FB4720D11B1D00958AC9 /* Home */,
+				A082FB4820D11B1D00958AC9 /* Live */,
+				A082FB4920D11B1D00958AC9 /* Main */,
+				A082FB4A20D11B1D00958AC9 /* Profile */,
+				A082FB4B20D11B1D00958AC9 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A082FB4620D11B1D00958AC9 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		A082FB4720D11B1D00958AC9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A082FB4820D11B1D00958AC9 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		A082FB4920D11B1D00958AC9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A082FB1020D1156500958AC9 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A082FB4A20D11B1D00958AC9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A082FB4B20D11B1D00958AC9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +283,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A082FB1720D1156500958AC9 /* LaunchScreen.storyboard in Resources */,
-				A082FB4320D11A4300958AC9 /* Classes in Resources */,
 				A082FB1420D1156500958AC9 /* Assets.xcassets in Resources */,
 				A082FB1220D1156500958AC9 /* Main.storyboard in Resources */,
 			);
@@ -299,6 +351,7 @@
 				A082FB1120D1156500958AC9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A082FB1520D1156500958AC9 /* LaunchScreen.storyboard */ = {
