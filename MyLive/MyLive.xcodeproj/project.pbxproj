@@ -13,7 +13,7 @@
 		A082FB1720D1156500958AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A082FB1520D1156500958AC9 /* LaunchScreen.storyboard */; };
 		A082FB2220D1156600958AC9 /* MyLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082FB2120D1156600958AC9 /* MyLiveTests.swift */; };
 		A082FB2D20D1156600958AC9 /* MyLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082FB2C20D1156600958AC9 /* MyLiveUITests.swift */; };
-		A082FB3F20D118DB00958AC9 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = A082FB3E20D118DB00958AC9 /* Classes */; };
+		A082FB4320D11A4300958AC9 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = A082FB4220D11A4300958AC9 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		A082FB2820D1156600958AC9 /* MyLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A082FB2C20D1156600958AC9 /* MyLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiveUITests.swift; sourceTree = "<group>"; };
 		A082FB2E20D1156600958AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A082FB3E20D118DB00958AC9 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		A082FB4220D11A4300958AC9 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 		A082FB0B20D1156500958AC9 /* MyLive */ = {
 			isa = PBXGroup;
 			children = (
-				A082FB3E20D118DB00958AC9 /* Classes */,
+				A082FB4220D11A4300958AC9 /* Classes */,
 				A082FB0C20D1156500958AC9 /* AppDelegate.swift */,
 				A082FB1020D1156500958AC9 /* Main.storyboard */,
 				A082FB1320D1156500958AC9 /* Assets.xcassets */,
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A082FB1720D1156500958AC9 /* LaunchScreen.storyboard in Resources */,
-				A082FB3F20D118DB00958AC9 /* Classes in Resources */,
+				A082FB4320D11A4300958AC9 /* Classes in Resources */,
 				A082FB1420D1156500958AC9 /* Assets.xcassets in Resources */,
 				A082FB1220D1156500958AC9 /* Main.storyboard in Resources */,
 			);
