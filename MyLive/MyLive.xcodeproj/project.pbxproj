@@ -15,6 +15,7 @@
 		A082FADB20D10D4800958AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A082FAD920D10D4800958AC9 /* LaunchScreen.storyboard */; };
 		A082FAE620D10D4800958AC9 /* MyLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A082FAE520D10D4800958AC9 /* MyLiveTests.m */; };
 		A082FAF120D10D4800958AC9 /* MyLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A082FAF020D10D4800958AC9 /* MyLiveUITests.m */; };
+		A082FAFF20D1103F00958AC9 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = A082FAFE20D1103F00958AC9 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A082FAEC20D10D4800958AC9 /* MyLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A082FAF020D10D4800958AC9 /* MyLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLiveUITests.m; sourceTree = "<group>"; };
 		A082FAF220D10D4800958AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A082FAFE20D1103F00958AC9 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		A082FACA20D10D4700958AC9 /* MyLive */ = {
 			isa = PBXGroup;
 			children = (
+				A082FAFE20D1103F00958AC9 /* Classes */,
 				A082FACE20D10D4700958AC9 /* AppDelegate.h */,
 				A082FACF20D10D4700958AC9 /* AppDelegate.m */,
 				A082FAD120D10D4700958AC9 /* ViewController.h */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A082FADB20D10D4800958AC9 /* LaunchScreen.storyboard in Resources */,
+				A082FAFF20D1103F00958AC9 /* Classes in Resources */,
 				A082FAD820D10D4800958AC9 /* Assets.xcassets in Resources */,
 				A082FAD620D10D4800958AC9 /* Main.storyboard in Resources */,
 			);
@@ -411,7 +415,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = MyLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lm.MyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +428,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = MyLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lm.MyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
